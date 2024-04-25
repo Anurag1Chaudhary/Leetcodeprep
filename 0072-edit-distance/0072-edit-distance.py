@@ -1,6 +1,6 @@
 class Solution(object):
     def minDistance(self, word1, word2):
-        dp=[[-1]*len(word2) for _ in range(len(word1))]
+        dp=[[-1]*len(word2) for i in range(len(word1))]
         def imao(i,j):
             if i==-1:
                 return j+1;
